@@ -37,18 +37,21 @@
       text-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
       color: #4a4a4a;
     }
-    .tab1 {
+    .selected {
+	  position: absolute;
+	  left: 2px;
       height: 44px;
       width: 61px;
       bottom: 2px;
-      background: none;
-    }
-    .tab2 {
-	  position: relative;
-      height: 44px;
-      width: 61px;
-      bottom: -4px;
       background-color: rgba(252, 252, 252, 0.25);
+      border-radius: 3px 3px 3px 3px;
+    }
+	.move {
+	  position: absolute;
+	  left: 66px;
+      height: 44px;
+      width: 196px;
+      bottom: 2px;
       border-radius: 3px 3px 3px 3px;
     {
 	</style>
@@ -59,10 +62,15 @@
      <div class="text">
       <h3>Welcome to my mobile hell!</h3>
      </div>
+	</center>
     <div class="fuck">
-      <div class="tab2">
+	  <div class="selected">
         <img src="https://i.imgur.com/9qn3Yxg.png">
       </div>
-    </div>
-</center>
+	  <div class="move">
+		<img src="https://i.imgur.com/T2dheYS.png">
+		<img src="https://i.imgur.com/6Cn2tUd.png">
+		<img src="https://i.imgur.com/rNjLiim.png">
+	  </div>
+	</div>
 </body>
